@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Tourism</title>
+  </head>
+  <link rel="stylesheet" href="destination.css" />
+  <body style="background-image: url(./images/moon\ desktop.jpg)">
+    <nav>
+      <img src="./images/logo.svg" />
+      <div class="navbar-desktop-right-side">
+        <hr class="horizontal-line" />
+        <ul class="nav-links-container bgd-blur">
+          <li >
+            <a href="index.html"> <span> 00 </span> Home </a>
+          </li>
+          <li class="current-page">
+            <a href="destinations.html"><span> 01 </span> Destination</a>
+          </li>
+          <li>
+            <a href="index.html"> <span> 02 </span> Crew </a>
+          </li>
+          <li>
+            <a href="index.html"> <span> 03 </span> Technology </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <h1><span style="color: darkgray;"> 01 </span> Pick your destination</h1>
+      <div  class="container">
+        <img class="destination-images" src="" >
+        <div class="description">
+          <div>            
+            <button class="moon-button button">MOON</button>   
+            <button class="mars-button button">MARS</button>
+            <button class="europe-button button">EUROPE</button>
+            <button class="titan-button button">TITAN</button>
+          </div>
+          <h2 class="destionation-name"></h2>
+          <p class="destination-description"></p>
+          <hr/>
+          <div class="distance-travel">
+            <div >
+              <p class="distance">AVG. DISTANCE</p>
+              <p class="destination-distance"></p>
+            </div>
+            <div>
+              <p class="travel">Est. travel time</p>
+              <p class="destination-travel"></p>
+            </div> 
+          </div>        
+        </div>
+      </div>
+    </header>
+    <script src="./script.js"></script>
+  </body>
+</html>

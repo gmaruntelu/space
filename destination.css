@@ -1,0 +1,180 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-desktop-right-side {
+    position: relative;
+    margin-right: -6px;
+}
+
+.nav-links-container {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 48px;
+    background: #FFFFFF0A;
+    padding-left: 90px;
+    padding-right: 120px;
+}
+
+.bgd-blur {
+    backdrop-filter: blur(16px)
+    
+}
+
+.nav-links-container li {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.nav-links-container a {
+    font-family: "Barlow Condensed";
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-links-container span {
+    font-weight: 700;
+    
+}
+
+.current-page {
+    border-bottom: 3px solid white;
+}
+
+.horizontal-line {
+    height: 0;
+    width: 400px;
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: -380px;
+}
+
+h1 {
+    font-family: Barlow Condensed;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 4.72px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.button {
+    font-family: Barlow Condensed;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.destionation-name {
+    font-family: Bellefair;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 37px;
+    margin-bottom: 14px;
+}
+
+.destination-description {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #D0D6F9;
+}
+
+.distance-travel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.distance {
+    font-family: Barlow Condensed;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2.36px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    margin-bottom: -12px;
+}
+
+.destination-distance {
+    font-family: Bellefair;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.travel {
+    font-family: Barlow Condensed;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2.36px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    margin-bottom: -12px;
+}
+
+.destination-travel {
+    font-family: Bellefair;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    padding: 92px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .horizontal-line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-links-container {
+        padding-left: 48px;
+    }
+}
